@@ -10,6 +10,7 @@ class Solution:
         if len_n > len_h:
             return -1
         i = 0
+        # Run the while loop only when the remaining of haystack is longer than needle 
         while (len_h - i) >= len_n:
             if haystack[i] != needle[0]:
                 i += 1
